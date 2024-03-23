@@ -1,10 +1,7 @@
 print('Proporcione los siguientes datos del libro')
 nombreLibro = input('Ingrese el nombre del libro: ')
-print(nombreLibro)
-libroId = int(input('Ingrese el ID del libro'))
-print(libroId)
-precio = float(input('Ingrese el precio del libro'))
-print(precio)
+libroId = int(input('Ingrese el ID del libro '))
+precio = float(input('Ingrese el precio del libro '))
 envio = (input('Indica si es envio gratuito (si/no): '))
 if envio == 'si':
     print('El libro se envia gratuitamente')
