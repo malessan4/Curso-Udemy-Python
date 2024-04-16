@@ -29,3 +29,34 @@ for nombre in nombres:
     print(nombre)
 else:
     print('No existe más nombres en la lista')
+    
+#preguntar el largo de una lista
+print(len(nombres))
+
+#agregar un elemento a la lista, va a ser el ultimo de la lista
+nombres.append('Lorenzo')
+print(nombres)
+
+#insertar un elemento en un índice en especifico
+nombres.insert(1, 'Octavio')
+print(nombres)
+
+#remover un elemento, tiene que ser si o si por valor y no por indice
+nombres.remove('Octavio')
+print(nombres)
+
+#remover el último valor agregado
+nombres.pop()
+print(nombres)
+
+#eliminar un indice
+del nombres[0]
+print(nombres)
+
+#limpiar la lista
+nombres.clear()
+print(nombres)
+
+#borrar la lista por completo
+del nombres
+print(nombres)
