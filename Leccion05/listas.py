@@ -33,6 +33,10 @@ else:
 #preguntar el largo de una lista
 print(len(nombres))
 
+#preguntar si se encuentra tal elemento
+print('Juan' in nombres)
+#devuelve valor booleano
+
 #agregar un elemento a la lista, va a ser el ultimo de la lista
 nombres.append('Lorenzo')
 print(nombres)

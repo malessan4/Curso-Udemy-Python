@@ -5,6 +5,7 @@
 frutas = ('Naranja', 'Banana', 'Manzana')
 print(frutas)
 print(len(frutas))
+print('Manzana' in frutas)
 print(frutas[0])
 print(frutas[-1])
 print(frutas[0:2])
