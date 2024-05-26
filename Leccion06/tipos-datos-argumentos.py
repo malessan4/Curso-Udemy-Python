@@ -5,3 +5,6 @@ def desplegarNombres(nombres):
 nombres = ['Juan', 'Karla', 'Guillermo']
 
 desplegarNombres(nombres)
+desplegarNombres('Carlos') #string
+desplegarNombres((10, 11)) #tupla
+desplegarNombres([10, 11]) #lista
