@@ -9,8 +9,10 @@ miFuncion('Juan', 'Perez')
 miFuncion('Carla', 'Lara')
 
 #en el return es opcional el parentesis en este caso
-def sumar(a, b):
+def sumar(a = 0, b = 0):
     return a + b
 
-resultado = sumar(5,3)
+resultado = sumar()
 print (f'Resultado de la suma: {resultado}')
+
+print (f'Resultado sumar: {sumar(2,8)}')
