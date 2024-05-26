@@ -19,6 +19,8 @@ def numerosDescen(numero):
     if numero >= 1:
         print(numero)
         numerosDescen(numero - 1)
+    elif numero == 0:
+        return
     elif numero <= 0:
         print('Valor incorrecto...')
 
