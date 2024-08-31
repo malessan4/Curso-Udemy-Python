@@ -20,9 +20,8 @@ if respuesta == 1:
 elif respuesta == 2:
     grado_fahrenheit = float(input("Ingrese grados Fahrenheit: "))
     resultado_celsius = fahrenheit_celsius(grado_fahrenheit)
-    print("Resultado en Celsius: ", resultado_celsius)
+    print(f"Resultado en Celsius:  {resultado_celsius}")
 else:
     print("Gracias por usar Convertidor3000 ")
     
-
 
