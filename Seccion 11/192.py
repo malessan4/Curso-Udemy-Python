@@ -1,6 +1,6 @@
 class Aritmetica:
     
-    def __init__(self, operando1, operando2):
+    def __init__(self, operando1=None, operando2=None):
         self.operando1 = operando1
         self.operando2 = operando2
         
@@ -29,3 +29,14 @@ aritmetica2 = Aritmetica (12, 16)
 aritmetica2.sumar()
 aritmetica2.multiplicar()
 aritmetica2.division()
+print()
+
+aritmetica3 = Aritmetica (7)
+aritmetica3.operando2 = 9
+aritmetica3.sumar()
+print()
+
+aritmetica4 = Aritmetica()
+aritmetica4.operando1 = 2
+aritmetica4.operando2 = 8
+aritmetica4.sumar()
