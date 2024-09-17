@@ -20,7 +20,10 @@ class Perro(Animal):
     
 class Gato(Animal):
     def hacer_sonido(self):
-        print('Miau miau')        
+        print('Miau miau')  
+        
+    def dormir(self):
+        print('Duermo 15 horas')          
         
 # Programa principal
 print('*** Ejemplo de Herencia en Python ***')
