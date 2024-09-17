@@ -10,3 +10,9 @@ class Perro(Animal):
         print('Puedo ladrar')
         
         
+# Programa principal
+print('*** Ejemplo de Herencia en Python ***')
+print('Clase Padre, soy un Animal')
+animal1 = Animal()
+animal1.comer()
+animal1.dormir()
