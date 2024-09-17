@@ -25,23 +25,27 @@ class Gato(Animal):
     def dormir(self):
         print('Duermo 15 horas')          
         
+def hacer_sonido_animal(animal):
+    animal.hacer_sonido()
+
+    
 # Programa principal
 print('*** Ejemplo de Herencia en Python ***')
 print('Clase Padre, soy un Animal')
 animal1 = Animal()
 animal1.comer()
 animal1.dormir()
-animal1.hacer_sonido()
+hacer_sonido_animal(animal1)
 
 
 print('\nClase Hija, soy un perro')
 perro1 = Perro()
-perro1.hacer_sonido()
+hacer_sonido_animal(perro1)
 perro1.comer()
 perro1.dormir()
 
 print('\nClase Hija, soy un gato')
 gato1 = Gato()
-gato1.hacer_sonido()
+hacer_sonido_animal(gato1)
 gato1.comer()
 gato1.dormir()
