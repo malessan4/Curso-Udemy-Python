@@ -12,4 +12,9 @@ class Raton(DispositivoEntrada):
         return (f'ID: {self.id_raton}, Marca: {self.marca},'
                 f' Tipo Entrada {self.tipo_entrada}')
         
+if __name__ == '__main__':
+    raton1 = Raton('HP', 'USB')
+    print(raton1)
+    raton2 = Raton('Acer', 'Bluetooth')
+    print(raton2)
     
