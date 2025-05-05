@@ -14,7 +14,7 @@ class Computadora:
         self.raton = raton
         
     def __str__(self):
-        return f'''{self.nombre}: {self.id_computadora}
+        return f'''{self.nombre}: ID: {self.id_computadora}
 Monitor: {self.monitor}
 Teclado: {self.teclado}
 Raton: {self.raton}'''
