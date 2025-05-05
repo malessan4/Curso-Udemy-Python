@@ -25,3 +25,11 @@ if __name__ == '__main__':
     monitor1 = Monitor('HP', '25')
     computadora1 = Computadora('HP', monitor1, teclado1, raton1)
     print(computadora1)
+    
+    print()
+    
+    teclado2 = Teclado('Gamer', 'Bluetooth')
+    raton2 = Raton('Gamer', 'Bluetooth')
+    monitor2 = Monitor('Gamer', 34)
+    computadora2 = Computadora('Gamer', monitor2, teclado2, raton2)
+    print(computadora2)
