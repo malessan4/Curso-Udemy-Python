@@ -8,7 +8,7 @@ class Teclado(DispositivoEntrada):
         super().__init__(marca, tipo_entrada)
 
     def __str__(self):
-        return (f'ID: {self.id_teclado}, Marca: {self.marca},'
+        return (f'ID: {self.id_teclado}, Marca: {self.marca}, '
                 f'Tipo Entrada: {self.tipo_entrada}')
                 
 if __name__ == '__main__':
